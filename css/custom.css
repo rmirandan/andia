@@ -47,6 +47,10 @@ dark: #352265;
     display: none!important;
    }
 
+   .imghit{
+    max-width: 100%!important;
+   }
+
    .modal-body h1{
     padding-left: 15px;
    }
@@ -91,6 +95,10 @@ footer .logo{
 footer .footer-span{
     margin-top: 20px;
 
+}
+
+.imghit{
+    max-width: 600px;
 }
 
 
