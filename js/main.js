@@ -9,6 +9,7 @@ jQuery(document).ready(function ($) {
 		$(".overlay", this).css("display","block");
 		$(".loguito", this).css("display", "block");
 		$(".in", this).css("display", "block");
+		
 	},function(){
 		$("img", this).css("display", "block");
 		$(".overlay", this).css("display","none");
