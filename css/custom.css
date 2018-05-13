@@ -1,0 +1,389 @@
+body{
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 300;
+}
+/*Colors
+
+light: #4AC2C8;
+dark: #352265;
+
+*/
+
+
+
+@media only screen and (max-width: 600px) {
+    .sect{
+        height: auto!important;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    h4{
+        font-size: 1.2em;
+    }
+    .navbar-default{
+    background: linear-gradient(-107.56deg, #4AC2C8 0%, #4AC2C8 26.96%, #352265 98.79%);
+   
+    }
+    .andia-section{
+    padding: 40px 0px;
+    }
+
+    .person-img{
+        width:50%!important;
+        margin: 0px auto;
+        padding-top: 30px;
+        display: block;
+        ;
+    }
+
+   .mymodals{margin: 0 15px!important;
+    height: 250px!important;}
+
+   .modal-in{
+    margin-top: 20px!important;
+    display: none!important;
+   }
+
+   .modal-body h1{
+    padding-left: 15px;
+   }
+
+   .modal-body p {
+    padding-left: 15px;
+   }
+
+
+
+}
+
+
+.close{
+    right: 0px;
+    top: -10px;    
+    position: absolute;
+    z-index: 99;
+    color: #c1c1c1;
+    opacity: 1;
+    text-shadow: 0 1px 10px #d1d1d1; 
+    padding: 20px;
+
+}
+
+.close:hover, .close:focus{
+     right: 0px;
+    top: -10px;    
+    position: absolute;
+    z-index: 99;
+    color: white;
+    opacity: 1;
+    text-shadow: 0 1px 10px #000; 
+    padding: 20px;
+}
+
+.modal-header{
+    padding: 0px;
+    border:none;
+    display: none;
+}
+
+.modal-header .close{
+    position: relative;
+    top: 15px;
+    left: -15px;
+
+}
+
+.modal-body > button > span{
+    color: red;
+    
+    position: absolute;
+}
+
+
+.mymodals{
+    height: 400px;
+    background-color: #313131;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.modal-body{
+    margin: 0px;
+    border:none;
+    padding: 0px;
+
+}
+
+.modal-in{
+    margin: 25% auto;
+    display: block;
+
+}
+
+
+
+.job-desc{
+margin-top: -8px;
+color: #828282;
+margin-bottom: 50px;
+}
+
+.curr{
+    padding-right: 15px;
+    text-align: justify;
+    color: #4f4f4f;
+    line-height: 27px;
+}
+
+.person-img{
+    width: 100%;
+}
+
+.modal-content{
+    border-radius: 0px;
+    border:none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.cont-sect{
+    height: 100%;
+    width: 40%;
+    background: #313131;
+
+}
+
+
+.canvas-background {
+    position: absolute;
+    width: 100%;
+    z-index: -99;
+    height:100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+
+.bg-gradient{
+    background: url(../img/fondo_inv.svg);
+    min-width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.card-propuesta .img{
+    max-width: 150px;
+
+}
+
+.margin-bottom-30{
+    margin-bottom: 70px;
+}
+
+.card-propuesta .separator{
+    width: 15px;
+    height: 4px;
+    background-color: #333;
+    margin: 20px auto;
+    display: block;
+}
+
+.card-propuesta{
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+box-shadow: 3px 6px 6px rgba(130, 130, 130, 0.4);
+border-radius: 5px;
+padding: 50px 30px;
+margin-bottom: 15px; 
+}
+
+.card-propuesta .title{
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.3em;
+
+}
+
+.card-propuesta .desc{
+    color: #828282;
+    text-align: center;
+    height: 215px;
+    vertical-align: middle;
+}
+
+.andia-section{
+    padding: 70px 0px;
+}
+
+
+.team .imga{
+width: 200px;
+height: 200px;
+
+}
+
+
+.team .title{
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.team .overlay .loguito{
+    position:absolute;
+    top:30%;
+    left:43%;
+    color: white;
+    width: 15%; 
+    cursor: pointer;   
+}
+
+.team .overlay .in{
+    position:absolute;
+    top:60%;
+    left:47%;
+    color: white;
+    width: 7%; 
+    cursor: pointer; 
+}
+
+.team .overlay{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(74, 194, 200, 0.8) 0%, rgba(53, 34, 101, 0.8) 100%);
+    z-index: 99;
+    border-radius: 100%;
+    display: none;
+
+
+}
+
+.team .desc{
+    color: #828282;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+.m-top-40{
+margin-top: 30px;}
+
+.cel-img{
+    margin-top: 10%;
+    width: 150px;
+    transform: rotate(12deg);
+}
+
+.cel-img:hover{
+    transform: rotate(15deg);
+    transition:0.2s;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.azul{
+	color: blue;
+}
+
+.white-text{
+    color: white;
+}
+
+.padding-top-15{
+    padding-top: 15px;
+}
+.padding-bottom-15{
+    padding-bottom: 15px;
+}
+
+.padding-top-30{
+    padding-top: 30px;
+}
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+
+.padding-top-50{
+    padding-top: 50px;
+}
+
+.padding-bottom-50 {
+    padding-bottom: 50px;
+}
+
+.padding-bottom-70 {
+    padding-bottom: 70px;
+}
+
+.light{
+	font-weight: 200!important;
+}
+
+.bold{
+	font-weight: 500!important;
+}
+
+.text-shadow{
+	text-shadow: 1px 2px 5px rgba(0,0,0,0.4);
+}
+
+.p-sub{
+    font-size: 1.3em;
+    color: #828282;
+
+}
+
+.sect{
+	
+    z-index: -1;
+    /*url(../img/pattern.svg)*/
+    background-image:url(../img/header.svg);
+    background-position: 50% 100%,50% 100%;
+    background-size: cover,cover;
+    background-repeat: no-repeat,no-repeat;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    min-width: 100%;
+}
+
+.navbar-default{
+	border-left: none;
+	border-right: none; 
+	/*background: linear-gradient(90deg,rgba(55,147,136),rgba(183,195,76));*/
+	background-color: transparent;
+	border-bottom: 0.5px solid rgba(255,255,255,0.5);
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.navbar{
+	min-height: 70px;
+}
+
+.navbar-brand > img{
+	max-width: 110px;
+
+}
+
+.fix-top{
+	margin-top: 70px;
+}

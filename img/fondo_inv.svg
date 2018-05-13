@@ -1,0 +1,12 @@
+<svg width="1440" height="735" viewBox="0 0 1440 735" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M 28.7467 693.647C 323.495 733.806 640.443 776.99 1440 653.911L 1440 0L 0 0L 0 689.739C 9.56927 691.035 19.1462 692.339 28.7467 693.647Z" transform="translate(1440 735) scale(-1)" fill="url(#paint0_linear)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1440 647.846 -1262.03 739.204 631.015 -369.602)">
+<stop stop-color="#4AC2C8"/>
+<stop offset="0.272875" stop-color="#4AC2C8"/>
+<stop offset="1" stop-color="#352265"/>
+</linearGradient>
+</defs>
+</svg>
