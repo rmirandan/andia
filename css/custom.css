@@ -216,7 +216,7 @@ margin-bottom: 50px;
 .bg-gradient{
     background: url(../img/fondo_inv.svg);
     min-width: 100%;
-    height: 850px;
+    height: calc(100% - 170px);
     background-size: cover;
     background-repeat: no-repeat;
 
