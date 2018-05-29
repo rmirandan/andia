@@ -59,6 +59,10 @@ dark: #352265;
     padding-left: 15px;
    }
 
+   .card-propuesta .separator{
+    display: none!important;
+   }
+
 
 
 }
@@ -73,6 +77,13 @@ footer{
     color: white;
 }
 
+
+a {color: white !important;
+}
+
+footer > a:hover{
+    color: blue;
+}
 
 footer .soMeLogo{
     display: inline-block;
@@ -98,7 +109,8 @@ footer .footer-span{
 }
 
 .imghit{
-    max-width: 600px;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 
