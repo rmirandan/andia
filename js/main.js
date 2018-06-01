@@ -1,7 +1,15 @@
 
 //Inicializar el plugin para las animaciones.
-new WOW().init();
-
+  wow = new WOW(
+  {
+  boxClass:     'wow',      // default
+  animateClass: 'animated', // default
+  offset:       0,          // default
+  mobile:       false,       // default
+  live:         true        // default
+}
+)
+wow.init();
 jQuery(document).ready(function ($) {
 
 	$(".team", this).hover(function(){
