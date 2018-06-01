@@ -28,18 +28,23 @@ dark: #352265;
     .andia-section{
     padding: 40px 0px;
     }
-
     .person-img{
-        width:170px!important;
-        margin: 0px auto;
-        padding-top: 30px;
+        width: 70%!important;
         display: block;
-        ;
+        margin: 20px auto;
     }
 
-   .mymodals{
-    margin: 0 15px!important;
-    height: 250px!important;}
+    .mymodals{
+        min-height: 200px!important;
+        background-color: white!important;
+    }
+
+    .modal-body > .row{
+        margin: 15px!important;
+    }
+
+    }
+
 
    .modal-in{
     margin-top: 20px!important;
@@ -157,7 +162,7 @@ footer .footer-span{
 
 
 .mymodals{
-    height: 400px;
+    min-height: 520px;
     background-color: #313131;
     margin-left: 0px;
     padding-left: 0px;
@@ -301,20 +306,20 @@ height: 200px;
 }
 
 .team .overlay .loguito{
-    position:absolute;
-    top:30%;
-    left:43%;
+    position:relative;
+    top: 70px;
+    left: 70px;
     color: white;
-    width: 15%; 
+    width: 60px; 
     cursor: pointer;   
 }
 
 .team .overlay .in{
-    position:absolute;
-    top:60%;
-    left:47%;
+    position:relative;
+    top:100px;
+    left:90px;
     color: white;
-    width: 7%; 
+    width: 20px; 
     cursor: pointer; 
 }
 
