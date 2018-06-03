@@ -73,9 +73,9 @@ dark: #352265;
 
 
 footer{
-    box-shadow: 0px -2px 5px #999999;
+    box-shadow: 0px -2px 5px #999999!important;
     min-height: 70px;
-    background: linear-gradient(to bottom right, #313131, #000);
+    background: linear-gradient(to bottom right, #313131, #000)!important;
     margin-bottom: -10px;
     padding: 20px;
     color: white;
@@ -262,6 +262,17 @@ margin-bottom: 50px;
 }
 
 .card-propuesta{
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+box-shadow: 3px 6px 6px rgba(130, 130, 130, 0.4);
+border-radius: 5px;
+padding: 50px 30px;
+margin-bottom: 15px; 
+max-height: 474px;
+}
+
+.card-propuestaa{
 background: #FFFFFF;
 border: 1px solid #E0E0E0;
 box-sizing: border-box;
